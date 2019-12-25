@@ -19,3 +19,9 @@ $ git checkout 8.5.x
 
 
 
+git status中文文件名乱码消除
+
+```bash
+git config --global core.quotepath false
+```
+
